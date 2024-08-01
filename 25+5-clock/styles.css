@@ -72,7 +72,7 @@ button:hover, .disclaimer:hover {
 }
 
 .running-time {
-  color: #ffab00 !important; /* Amber */
+  color: #ffab00 !important; 
   transition: all 1s;
 }
 
