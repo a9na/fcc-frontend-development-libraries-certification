@@ -50,10 +50,6 @@ button {
   font-size: 18px;
 }
 
-button:hover, .disclaimer:hover {
-  color: #e57373; 
-}
-
 .btn-level,
 .length-control {
   display: inline-block;
