@@ -10,12 +10,9 @@ class App extends React.Component {
       intervalId : '',
       timerClass : 'timer',
       timeLeftClass : '',
-      disclaimerClass : ''
     };
     this.startAndStop = this.startAndStop.bind(this);
     this.reset = this.reset.bind(this);
-    this.openDisclaimer = this.openDisclaimer.bind(this);
-    this.closeDisclaimer = this.closeDisclaimer.bind(this);
   }
   setTimerClass(timerClass, timeLeftClass) {
     this.setState({
@@ -133,16 +130,6 @@ class App extends React.Component {
     seconds = seconds < 10 ? '0' + seconds : seconds;
     minutes = minutes < 10 ? '0' + minutes : minutes;
     return minutes + ':' + seconds;
-  }
-  openDisclaimer() {
-    this.setState({
-      disclaimerClass : "open-disclaimer-modal"
-    });
-  }
-  closeDisclaimer() {
-    this.setState({
-      disclaimerClass : ""
-    });
   }
   
   render() {
