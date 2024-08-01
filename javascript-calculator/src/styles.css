@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.AppStyle {
+  background-color: #e0f7fa;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Calculator {
+  width: 320px;
+  max-width: 100%;
+  background-color: #003366;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#display {
+  height: 60px;
+  color: #ffffff;
+  background-color: #002244;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 15px;
+  border-bottom: 1px solid #004080;
+}
+
+#equation {
+  height: 30px;
+  color: #b3cde0;
+  background-color: #002244;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 15px;
+  border-bottom: 1px solid #004080;
+}
+
+#numbers-operators {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 100%;
+}
+
+#numbers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+}
+
+#numbers button {
+  background-color: #004080;
+  color: #ffffff;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 15px;
+  transition: background-color 0.3s;
+}
+
+#numbers button:hover {
+  background-color: #003366;
+}
+
+#operators {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  gap: 1px;
+}
+
+#operators button {
+  background-color: #0066cc;
+  color: #ffffff;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 15px;
+  transition: background-color 0.3s;
+}
+
+#operators button:hover {
+  background-color: #005bb5;
+}
+
+h1 {
+  font-size: 16px;
+  color: #003366;
+  margin: 20px;
+  text-align: center;
+}
