@@ -29,7 +29,7 @@ body {
 }
 
 .title-box {
-  background-color: rgba(255, 105, 180, 0.8); /* Light pink */
+  background-color: rgba(255, 105, 180, 0.8); 
   border-radius: 35px;
   padding: 10px;
   width: 260px;
@@ -45,13 +45,13 @@ button {
   background: none;
   outline: none;
   border: none;
-  color: #ff6f61; /* Coral */
+  color: #ff6f61; 
   cursor: pointer;
   font-size: 18px;
 }
 
 button:hover, .disclaimer:hover {
-  color: #e57373; /* Lighter coral */
+  color: #e57373; 
 }
 
 .btn-level,
@@ -65,8 +65,8 @@ button:hover, .disclaimer:hover {
 
 .running {
   border: none !important;
-  box-shadow: 0 0 15px rgba(255, 87, 34, 0.7) !important; /* Deep orange */
-  background-color: rgba(255, 193, 7, 0.2); /* Light amber */
+  box-shadow: 0 0 15px rgba(255, 87, 34, 0.7) !important; 
+  background-color: rgba(255, 193, 7, 0.2); 
   color: #fff !important;
   transition: all 1s;
 }
@@ -77,18 +77,18 @@ button:hover, .disclaimer:hover {
 }
 
 .red {
-  box-shadow: 0 0 15px rgba(233, 30, 99, 0.7) !important; /* Pinkish red */
-  background-color: rgba(233, 30, 99, 0.2) !important; /* Light pinkish red */
+  box-shadow: 0 0 15px rgba(233, 30, 99, 0.7) !important; 
+  background-color: rgba(233, 30, 99, 0.2) !important; 
 }
 
 .red-time {
-  color: #e91e63 !important; /* Pink */
+  color: #e91e63 !important;
   transition: all 1s;
 }
 
 .timer {
-  border: 5px solid rgba(0, 150, 136, 0.5); /* Teal */
-  box-shadow: 0 0 15px rgba(0, 188, 212, 0.5); /* Light teal */
+  border: 5px solid rgba(0, 150, 136, 0.5);
+  box-shadow: 0 0 15px rgba(0, 188, 212, 0.5); 
   margin: 20px auto;
   width: 240px;
   height: 240px;
@@ -128,7 +128,7 @@ button:hover, .disclaimer:hover {
 h1 {
   margin: 0 0 0.5em 0;
   font-size: 28px;
-  color: #ff6f61; /* Coral */
+  color: #ff6f61; 
 }
 
 i {
@@ -148,6 +148,6 @@ p {
 
 a {
   font-weight: bold;
-  color: #ff6f61; /* Coral */
+  color: #ff6f61; 
 }
 
