@@ -37,14 +37,6 @@ body {
   margin-bottom: 10px;
 }
 
-.disclaimer {
-  font-size: 14px;
-  margin: 5px 0;
-  font-weight: 500;
-  color: #ff6f61; /* Coral */
-  cursor: pointer;
-}
-
 .length-control {
   width: 260px;
 }
@@ -116,11 +108,11 @@ button:hover, .disclaimer:hover {
 
 #time-left {
   font-size: 60px;
-  color: #333; /* Darker text color for better contrast */
+  color: #333; 
 }
 
 .timer-control button:active {
-  color: #004d40; /* Dark teal */
+  color: #004d40; 
 }
 
 @media screen and (max-width: 500px) {
@@ -131,32 +123,6 @@ button:hover, .disclaimer:hover {
     -ms-transform: scale(0.9);
     -o-transform: scale(0.9);
   }
-}
-
-#disclaimer-modal {
-  visibility: hidden;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  background-color: rgba(0, 0, 0, 0.7);
-  z-index: 999;
-  transition: opacity 1s;
-  opacity: 0;
-}
-
-#modal {
-  position: relative;
-  background-color: #fff;
-  width: 20em;
-  height: 10em;
-  border-radius: 1em;
-  z-index: 1000;
-  color: #000;
-  transition: all 1s;
-  padding: 1em;
 }
 
 h1 {
@@ -185,7 +151,3 @@ a {
   color: #ff6f61; /* Coral */
 }
 
-.open-disclaimer-modal {
-  opacity: 1 !important;
-  visibility: visible !important;
-}
