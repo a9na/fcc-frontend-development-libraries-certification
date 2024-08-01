@@ -137,7 +137,6 @@ class App extends React.Component {
       <div>
         <div className="main-title">
           <div className="title-box">Timer</div>
-          <div className="disclaimer" onClick={this.openDisclaimer}>DISCLAIMER</div>
         </div>
         <div className="length-control">
           <div id="break-label">Break Length</div>
